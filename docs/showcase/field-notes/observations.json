@@ -1,0 +1,50 @@
+{
+  "review": "maker self-review; capture/replay only, no aesthetic score",
+  "case": "field-notes",
+  "views": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "dom": {
+        "overflow": 0,
+        "images": [
+          {
+            "loaded": true,
+            "width": 1600,
+            "height": 1274
+          },
+          {
+            "loaded": true,
+            "width": 1600,
+            "height": 1274
+          }
+        ]
+      }
+    },
+    {
+      "label": "mobile",
+      "width": 375,
+      "height": 860,
+      "dom": {
+        "overflow": 0,
+        "images": [
+          {
+            "loaded": true,
+            "width": 1600,
+            "height": 1274
+          },
+          {
+            "loaded": true,
+            "width": 1600,
+            "height": 1274
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "detail": "Detail crop · cypress and sky",
+  "viewer": true,
+  "viewerClosed": true
+}

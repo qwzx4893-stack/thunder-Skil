@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.1 — 2026-10-16
+
+- Completed four compact maker-reviewed design cases: two from scratch (Midad, After Hours) and two with deliberately sourced, credited imagery (Field Notes, Still / Form). No subagent critic or automatic aesthetic grader was used in this round.
+- Corrected the reusable causes of observed failures in existing guidance: mobile context and state reconciliation, misleading action affordances, task-dependent subject order, image delivery and local decorative collisions.
+- Added runnable examples, desktop/mobile/state captures, initial-versus-repaired evidence, a self-review ledger and a six-case README gallery with a workflow diagram.
+- Preserved original image rights and source attribution; third-party showcase imagery is explicitly excluded from the repository MIT grant.
+- Added capture/replay tooling and CI coverage for the four new examples. These checks are distinct from the maker's visual judgment; no new superiority or accessibility-conformance claim is made.
+
 ## 0.5.0 — 2026-10-16
 
 - Introduced Thunder Skil as the public repository/display name while retaining immersive-web-studio as the compatible runtime identifier.

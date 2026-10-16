@@ -37,6 +37,8 @@ Record the hypothesis, artifact/state, observation and decision in a few lines. 
 
 Carry the selected relationship into the full surface and recheck it once surrounding sections exist. An attractive isolated opening can fail when the next section repeats its emphasis or delays the task. Remove effects whose cost exceeds their contribution. No fixed number of sections, prototypes, references or animation moves is required.
 
+Inspect how far the core subject or task falls below the opening on a narrow screen. A long introductory block can displace the very artwork, record or comparison the visitor came to inspect. Shorten or reorder around that task while keeping identifying context nearby and reading/focus order coherent. This is a task-dependent decision, not a rule that every image must precede every heading.
+
 Example: for a notebook archive without scans, a readable index of dated demo records can make observation and provenance tangible. Original ruled geometry may organize the metadata; an invented star map must not masquerade as measured positions. A category control should change the record set and survive opening/closing details. On mobile, preserve the observation title, category and inspect action before secondary metadata. The result succeeds through truthful browsing and composition, not through a generic “space” gradient.
 
 For original-site transfer use references/precedent-lab.md; for final acceptance use references/qa-gates.md. A useful composition study does not certify contrast, full accessibility or commercial outcomes.

@@ -31,3 +31,7 @@ The helper never clicks arbitrary controls. Task completion, dialog behavior, re
 Exit 0 = automated smoke PASS only; 1 = observed automatic FAIL; 2 = incomplete automated coverage or setup unavailable. Inspect report.scope and manualChecks before making a full acceptance claim. File-URL behavior can differ from a served app. Use a dev server when routes or module loading require it.
 
 The old _build/tests harness and historical results remain development evidence; they are not runtime dependencies or current-release acceptance instruments.
+
+## Showcase capture and scoped replay
+
+`node scripts/capture-showcase.mjs docs/examples/<case>/index.html <output-dir> [chromium-executable]` records full-page desktop (1440×1000) and mobile (375×860) views and a small, case-specific interaction replay. It uses the same installed Playwright resolver. The JSON records image loading, document overflow, uncaught page errors and observed state text. It has no aesthetic grader or score. Main-agent maker critique and the resulting skill corrections are documented separately in docs/self-review-0.5.1.md. Screenshots do not establish full accessibility or field performance.

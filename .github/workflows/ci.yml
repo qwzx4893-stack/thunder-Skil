@@ -34,9 +34,16 @@ jobs:
         run: npm test
       - name: Smoke the published example artifacts
         run: |
-          for DEMO_FILE in docs/benchmarks/artifacts/*.html; do
+          for DEMO_FILE in docs/benchmarks/artifacts/*.html docs/examples/*/index.html; do
             DEMO_NAME=$(basename "${DEMO_FILE%.html}")
+            if [ "$DEMO_NAME" = "index" ]; then DEMO_NAME="showcase-$(basename "$(dirname "$DEMO_FILE")")"; fi
             node scripts/audit.mjs "$DEMO_FILE" --out "test-results/$DEMO_NAME"
+          done
+      - name: Capture and replay the maker-reviewed showcases
+        run: |
+          for DEMO_FILE in docs/examples/*/index.html; do
+            DEMO_NAME=$(basename "$(dirname "$DEMO_FILE")")
+            node scripts/capture-showcase.mjs "$DEMO_FILE" "test-results/replay-$DEMO_NAME"
           done
       - name: Build portable release archive
         run: npm run package

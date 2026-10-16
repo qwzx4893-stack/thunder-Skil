@@ -11,14 +11,14 @@
 
 <p align="center">
   <strong>Subject-led web design. Useful interfaces. Evidence you can inspect.</strong><br>
-  <a href="#get-started">Get started</a> · <a href="docs/benchmarks/README.md">Test evidence</a> · <a href="docs/research.md">Research</a> · <a href="README.ar.md">العربية</a>
+  <a href="#design-gallery">Design gallery</a> · <a href="#get-started">Install</a> · <a href="docs/self-review-0.5.1.md">Latest review</a> · <a href="docs/research.md">Research</a> · <a href="README.ar.md">العربية</a>
 </p>
 
 Thunder Skil is a portable agent skill for building and improving web interfaces with a reason for their composition. It connects the visitor's task, the subject's real evidence, assets, art direction, responsive behavior and rendered review.
 
 A handcrafted product page, an Arabic operations tool and an exact reference implementation need different decisions. The skill routes them accordingly. It can choose stillness, a conventional control or a compact information model when that serves the work.
 
-**Version:** 0.5.0 · **Runtime identifier:** `immersive-web-studio` · **No required API key, paid service or package runtime for the instructions.**
+**Version:** 0.5.1 · **Runtime identifier:** `immersive-web-studio` · **No required API key, paid service or package runtime for the instructions.**
 
 ## What makes it useful
 
@@ -35,6 +35,66 @@ A handcrafted product page, an Arabic operations tool and an exact reference imp
 | Bounded verification | Distinguishes screenshots, exercised tasks, automated smoke, visual judgment and field performance |
 
 [Read the core workflow](SKILL.md) or explore the [dated original-site cases](references/observed-cases.md). The library is loaded by decision, not read in full at startup.
+
+## Design gallery
+
+**Six runnable concepts. Four new maker-reviewed cases. Two ways to start.** The latest round used direct main-agent critique, with a reusable skill correction after each case. No subagent critic or automated aesthetic score was used. The two earlier cases retain their separate comparison history. [Read the findings, before/after evidence and limits →](docs/self-review-0.5.1.md)
+
+```mermaid
+flowchart LR
+  A[Visitor task + actual content] --> B{Visual starting point}
+  B --> C[Original type + geometry]
+  B --> D[Sourced image + rights + fit]
+  C --> E[Useful composition + working action]
+  D --> E
+  E --> F[Render wide + narrow]
+  F --> G[Maker inspects pixels + behavior]
+  G --> H[Fix reusable cause in the skill]
+  H --> I[Repair example + reopen]
+```
+
+### From scratch · Midad / مِداد
+
+An Arabic RTL editorial desk. Quiet teal, readable article records, a priority that explains itself on mobile, and a working move-to-review action.
+
+[![Midad Arabic editorial desk, desktop](docs/showcase/midad/desktop.png)](docs/showcase/midad/desktop.png)
+
+[Phone](docs/showcase/midad/mobile.png) · [Changed state](docs/showcase/midad/changed.png) · [HTML](docs/examples/midad/index.html) · [Critique → skill repair](docs/self-review-0.5.1.md)
+
+### From scratch · After Hours
+
+A typographic film-weekend concept with original reel geometry, a two-day programme and an actual local shortlist. The poster and interaction have different jobs.
+
+[![After Hours orange typographic poster and programme](docs/showcase/after-hours/desktop.png)](docs/showcase/after-hours/desktop.png)
+
+[Phone](docs/showcase/after-hours/mobile.png) · [My plan](docs/showcase/after-hours/plan.png) · [HTML](docs/examples/after-hours/index.html) · [Critique → skill repair](docs/self-review-0.5.1.md)
+
+### With sourced artwork · Field Notes
+
+Van Gogh's *Wheat Field with Cypresses* sets the palette, pace and hierarchy. The complete painting, labeled brushwork crop and focused viewer preserve provenance. Public-domain image from The Met; no museum affiliation.
+
+[![Field Notes art-viewing interface around Van Gogh's painting](docs/showcase/field-notes/desktop.png)](docs/showcase/field-notes/desktop.png)
+
+[Phone](docs/showcase/field-notes/mobile.png) · [Artwork viewer](docs/showcase/field-notes/viewer.png) · [HTML](docs/examples/field-notes/index.html) · [Image rights/source](docs/examples/ASSETS.md#field-notes--public-domain-art) · [Critique → skill repair](docs/self-review-0.5.1.md)
+
+### With sourced photography · Still / Form
+
+A concrete-and-glass image study. Matt Boitor's portrait photograph supplies the diagonal, mineral colour and open grid. Full-frame/detail controls and a study dialog work. The fictional identity does not claim authorship of the building.
+
+[![Still Form architectural image-study interface with Matt Boitor's atrium photograph](docs/showcase/still-form/desktop.png)](docs/showcase/still-form/desktop.png)
+
+[Phone](docs/showcase/still-form/mobile.png) · [Open study](docs/showcase/still-form/study.png) · [HTML](docs/examples/still-form/index.html) · [Photo credit/license](docs/examples/ASSETS.md#still--form--licensed-stock-photography) · [Critique → skill repair](docs/self-review-0.5.1.md)
+
+### Earlier cases · Night Ledger & Second Seat
+
+An observation register and a furniture-repair clinic. Original code/typography and supplied demo records, with useful browsing or repair-intake behavior. These are the **0.5.0 candidate artifacts**, not newly generated 0.5.1 results; their [matched comparison](docs/benchmarks/README.md) reports mixed outcomes rather than universal wins.
+
+| Night Ledger · observation register | Second Seat · repair clinic |
+|---|---|
+| [![Night Ledger candidate desktop](docs/benchmarks/artifacts/night-ledger-candidate-1440.png)](docs/benchmarks/artifacts/night-ledger-candidate-1440.png) | [![Second Seat candidate desktop](docs/benchmarks/artifacts/second-seat-candidate-1440.png)](docs/benchmarks/artifacts/second-seat-candidate-1440.png) |
+| [Phone](docs/benchmarks/artifacts/night-ledger-candidate-375.png) · [HTML](docs/benchmarks/artifacts/night-ledger-candidate.html) | [Phone](docs/benchmarks/artifacts/second-seat-candidate-375.png) · [HTML](docs/benchmarks/artifacts/second-seat-candidate.html) |
+
+Click any screenshot for its full size. To run a case, clone/download and open its HTML locally; GitHub's source viewer does not execute it. The four new cases work without a server or image network access. Their image rights are documented in the [asset ledger](docs/examples/ASSETS.md).
 
 ## Get started
 
@@ -77,6 +137,8 @@ A stronger direction can require changing composition or acquiring a real asset.
 
 The repository publishes [test methodology and results](docs/benchmarks/README.md), reproducible helpers and relevant example artifacts.
 
+The [0.5.1 self-review](docs/self-review-0.5.1.md) adds four sequential maker-reviewed examples and narrow corrections for observed causes: lost mobile context, stale recommendations, misleading controls, delayed subject matter, image delivery and decorative collisions. Desktop/mobile/state captures and concrete replay observations are public. This is self-review by the making agent, not independent human validation or a controlled estimate of skill efficacy.
+
 **15 local verifier tests passed**, including a real browser fixture suite and release-packaging checks. That establishes behavior of the packaging/contrast/reflow helper checks in their tested environment. It does **not** certify visual taste or complete accessibility.
 
 The current development comparison uses a previous-version baseline and fresh candidate runs on the same expressive-build and constrained-correction prompts. Actual task behavior, qualitative comparison, initial failures, repairs and unavailable coverage are reported separately. Read the report before interpreting a badge as a design-quality claim.
@@ -111,7 +173,7 @@ assets/               Original banner and icon
 .github/              Pinned CI, issue/PR templates and dependency maintenance
 ```
 
-See [research and adaptations](docs/research.md), [asset provenance](docs/asset-provenance.md), [changelog](CHANGELOG.md), [contribution guide](CONTRIBUTING.md) and [security guidance](SECURITY.md). Source-site images, private prompts and third-party prompt corpora are not redistributed.
+See [research and adaptations](docs/research.md), [asset provenance](docs/asset-provenance.md), [changelog](CHANGELOG.md), [contribution guide](CONTRIBUTING.md) and [security guidance](SECURITY.md). Research-site images, private prompts and third-party prompt corpora are not redistributed. The two explicitly sourced showcase images are bundled under their documented original terms.
 
 ## Contribute
 
@@ -121,4 +183,4 @@ Useful contributions start with a concrete design or implementation failure, a s
 
 ## License
 
-[MIT](LICENSE). Research links acknowledge influence, not endorsement by the named organizations.
+[MIT](LICENSE) for code and original project assets. Third-party showcase imagery and its appearances in screenshots retain the [documented image rights](docs/examples/ASSETS.md). Research links acknowledge influence, not endorsement by the named organizations.

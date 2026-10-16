@@ -4,7 +4,66 @@
 
 **Thunder Skil** تساعد الوكيل على تحويل مهمة الزائر ومحتوى المشروع وأصوله إلى قرارات تصميم وتنفيذ. لا تفرض شكلًا واحدًا على موقع حرفي ولوحة تشغيل ومرجع يطلب المستخدم نسخه بدقة.
 
-الإصدار **0.5.0**. اسم الاستدعاء الداخلي بقي `immersive-web-studio` للحفاظ على التوافق. لا تحتاج التعليمات توكنًا أو خدمة مدفوعة أو حزمة برمجية لتعمل.
+الإصدار **0.5.1**. اسم الاستدعاء الداخلي بقي `immersive-web-studio` للحفاظ على التوافق. لا تحتاج التعليمات توكنًا أو خدمة مدفوعة أو حزمة برمجية لتعمل.
+
+## معرض التصاميم
+
+**ستة أمثلة قابلة للتشغيل: أربعة جديدة ومثالان سابقان.** الأمثلة الجديدة مرّت بدورات قصيرة: تنفيذ، معاينة شخصية من الوكيل الأساسي، إصلاح السبب القابل للتعميم في المهارة، ثم إصلاح المثال وإعادة فتحه. لم يُستخدم وكيل فرعي للنقد أو تقييم جمالي آلي. [سجل النقد والإصلاح وصور قبل/بعد](docs/self-review-0.5.1.md).
+
+```mermaid
+flowchart RL
+  A[مهمة الزائر والمحتوى الحقيقي] --> B{بداية التصميم}
+  B --> C[خطوط ورسومات أصلية]
+  B --> D[أصول منتقاة وحقوق موثقة]
+  C --> E[تركيب مفيد وتفاعل يعمل]
+  D --> E
+  E --> F[معاينة الحاسوب والهاتف]
+  F --> G[نقد مباشر وإصلاح السبب في المهارة]
+  G --> H[إصلاح المثال وإعادة فحصه]
+```
+
+### من الصفر: مِداد
+
+مساحة تحرير عربية RTL بهوية هادئة، وسياق واضح للأولوية على الهاتف، وإجراء ينقل المقال إلى المراجعة ويحدث التوصية والعدادات.
+
+[![مِداد — مساحة تحرير عربية](docs/showcase/midad/desktop.png)](docs/showcase/midad/desktop.png)
+
+[الهاتف](docs/showcase/midad/mobile.png) · [بعد الإجراء](docs/showcase/midad/changed.png) · [ملف التشغيل](docs/examples/midad/index.html)
+
+### من الصفر: After Hours
+
+برنامج سينمائي مفاهيمي بملصق طباعي برتقالي ورسومات أصلية، مع تبديل اليوم وقائمة عروض محلية تعمل. عولجت العناصر التي توحي بإجراء دون تنفيذه.
+
+[![After Hours — الملصق والبرنامج](docs/showcase/after-hours/desktop.png)](docs/showcase/after-hours/desktop.png)
+
+[الهاتف](docs/showcase/after-hours/mobile.png) · [قائمتي](docs/showcase/after-hours/plan.png) · [ملف التشغيل](docs/examples/after-hours/index.html)
+
+### بأصل منتقى: Field Notes
+
+واجهة مشاهدة فنية حول لوحة فان غوخ «حقل قمح مع أشجار سرو» من مجموعة The Met المتاحة للملك العام. الهوية مشتقة من اللوحة، مع عرض كامل وتفصيل معلّم ونافذة مشاهدة. لا ادعاء بالانتساب للمتحف.
+
+[![Field Notes — تجربة مشاهدة اللوحة](docs/showcase/field-notes/desktop.png)](docs/showcase/field-notes/desktop.png)
+
+[الهاتف](docs/showcase/field-notes/mobile.png) · [نافذة المشاهدة](docs/showcase/field-notes/viewer.png) · [ملف التشغيل](docs/examples/field-notes/index.html) · [المصدر والحقوق](docs/examples/ASSETS.md)
+
+### بأصل منتقى: Still / Form
+
+دراسة بصرية معمارية حول صورة Matt Boitor: شبكة مفتوحة وألوان معدنية تستجيب لقطر الدرابزين في الصورة. عرض كامل وتفصيل ونافذة دراسة؛ الصورة لا تُنسب كمشروع معماري للهوية الخيالية.
+
+[![Still Form — دراسة الصورة المعمارية](docs/showcase/still-form/desktop.png)](docs/showcase/still-form/desktop.png)
+
+[الهاتف](docs/showcase/still-form/mobile.png) · [نافذة الدراسة](docs/showcase/still-form/study.png) · [ملف التشغيل](docs/examples/still-form/index.html) · [المصور والترخيص](docs/examples/ASSETS.md)
+
+### مثالان سابقان: Night Ledger وSecond Seat
+
+أرشيف رصد وعيادة إصلاح أثاث، برسومات برمجية ومحتوى تجريبي. هذه نتائج النسخة المرشحة **0.5.0**، ولها [مقارنة سابقة بنتائج مختلطة](docs/benchmarks/README.md)؛ لم تُعرض كاختبارات جديدة للتحديث الحالي.
+
+| Night Ledger | Second Seat |
+|---|---|
+| [![أرشيف الرصد](docs/benchmarks/artifacts/night-ledger-candidate-1440.png)](docs/benchmarks/artifacts/night-ledger-candidate-1440.png) | [![عيادة إصلاح الأثاث](docs/benchmarks/artifacts/second-seat-candidate-1440.png)](docs/benchmarks/artifacts/second-seat-candidate-1440.png) |
+| [الهاتف](docs/benchmarks/artifacts/night-ledger-candidate-375.png) · [التشغيل](docs/benchmarks/artifacts/night-ledger-candidate.html) | [الهاتف](docs/benchmarks/artifacts/second-seat-candidate-375.png) · [التشغيل](docs/benchmarks/artifacts/second-seat-candidate.html) |
+
+اضغط الصورة لعرضها بالحجم الكامل. لتشغيل مثال، نزّل المستودع وافتح ملف HTML محليًا؛ عارض الشفرة في GitHub لا يشغله. الأمثلة الأربعة الجديدة لا تحتاج خادمًا أو تحميل الصور من الشبكة. [مصادر الصور وشروط استخدامها](docs/examples/ASSETS.md).
 
 ## ما الذي تفعله؟
 
@@ -63,4 +122,4 @@ npm run package
 
 رحّب بتحسين يحل إخفاقًا حقيقيًا بأصغر تعديل متماسك، مع حالة مضادة لا ينبغي أن تنطبق عليها القاعدة. اقرأ [دليل المساهمة](CONTRIBUTING.md) و[إرشادات الأمان](SECURITY.md).
 
-الترخيص [MIT](LICENSE). الإشارة إلى الشركات والمواقع لا تعني تأييدها للمشروع.
+الشفرة والأصول الأصلية بترخيص [MIT](LICENSE). صور الأمثلة الخارجية وظهورها في لقطات الشاشة تحتفظ [بحقوقها الموثقة](docs/examples/ASSETS.md) ولا يعاد ترخيصها باسم MIT. الإشارة إلى الشركات والمواقع لا تعني تأييدها للمشروع. المراجعة الجديدة نقد ذاتي من الوكيل الذي بنى الأمثلة، وليست تحكيمًا بشريًا مستقلًا أو إثباتًا للتفوق العام.

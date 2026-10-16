@@ -31,6 +31,8 @@ Check keyboard order, focus visibility, dialog focus return, escape when appropr
 
 Choose priority, order, density, navigation, columns, affordances at smaller widths. Test long labels, translations, digits, empty results, errors. Full surfaces need a 320 CSS px/equivalent 400% reflow check plus 200% enlargement review. Document exceptions for genuine two-dimensional content.
 
+Before hiding a desktop summary or side panel, identify any unique reason, deadline or next-action context it supplies. Move necessary context beside the affected item/control on narrow screens; do not preserve the action while deleting why it matters. After a state change, reconcile related counts, priority recommendations and details from the same current records so an old callout cannot contradict the updated list.
+
 Arabic/RTL:
 - Set language/direction. Use logical CSS properties and intentional reading/focus order.
 - Check actual Arabic font coverage/shaping; avoid Latin tracking and leading that clips diacritics.

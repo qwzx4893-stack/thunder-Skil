@@ -42,8 +42,12 @@ At narrow widths preserve the argument or task through reordering, simpler navig
 
 Choose crop and ratio by subject. Use object-position deliberately; do not crop necessary product detail. Diagrams may need contain rather than cover. Establish field/subject/light relation for staged media; add grain, duotone, blur, or texture only when it earns its rendering cost.
 
+Inspect the actual file's native dimensions and weight before building around it. Keep source quality separate from delivery size: serve an appropriate derivative or responsive source for normal viewing, and offer the original deliberately when close inspection needs it. Preserve aspect ratio and provenance; distinguish a detail crop from the complete object. Do not infer network performance from a fast local screenshot.
+
 Do not apply a color treatment that misrepresents a product. Preserve text legibility against worst-case images. Generated imagery should be evaluated for artifacts, relevance, consistency, and any implied factual claim.
 
 ## Check against pixels
+
+Check affordance as well as appearance: a familiar play symbol, outlined “My plan” element, drag handle or toggle implies an action. Implement the promised behavior or change the treatment so it is clearly illustration/status. A decorative symbol that resembles an inert control is not redeemed by attractive composition; do not turn this into a ban on those symbols in working controls.
 
 Review at normal size and relevant enlargement. Look for clipped ascenders/diacritics, weak labels, awkward wraps, faux weights, lost hierarchy, incoherent spacing, and inaccessible overlays. Compare actual source when fidelity matters. Fix the organizing issue before adding ornament.

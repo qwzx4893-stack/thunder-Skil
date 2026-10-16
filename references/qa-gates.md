@@ -47,6 +47,8 @@ Set JS/media/frame budgets from the existing stack and target device. L0/L1 shou
 
 Review task clarity, hierarchy, subject fit, composition/type/material craft, content credibility, state/recovery quality, and motion restraint (including justified stillness). Cite pixels or task behavior and one concrete next correction. Static and operational interfaces are not penalized for lacking a signature animation.
 
+Inspect local collisions even when document overflow is zero. Transformed pseudo-elements, diagrams, ornaments and positioned labels can leave their allocated region and cross adjacent text without widening the page. Reserve enough space, recompose or clip only the decoration; never hide necessary content to satisfy an overflow check. Reopen the affected width and state after repair.
+
 For substantial work, give a fresh critic task, constraints, screenshots and artifact without the maker's rationale. Distinguish independent review, self-review and human review. A rubric helps compare; it cannot convert taste into an objective percentage.
 
 ## Repair and delivery
