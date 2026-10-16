@@ -1,0 +1,49 @@
+{
+  "skill_name": "immersive-web-studio",
+  "protocol": "0.3.0 development evaluation; same model family and tool access; no superiority claim",
+  "evals": [
+    {
+      "id": 1,
+      "name": "rtl-task-workspace",
+      "prompt": "Build a self-contained Arabic RTL maintenance-request workspace in index.html. It is an operational tool, not a marketing site. Use the supplied demo records below, clearly labeled demo data. Preserve this specified identity: pale lavender #f4f0ff background, purple #5425a8 primary action, white surfaces, #221633 text, system-ui/Arial with Arabic coverage. A static interface is intentional; no decorative animation. Show requests, searchable by title, filterable by status (all/open/done), a selected-request details dialog, and a Resolve action that updates status and survives reload via localStorage. Keep search/filter context after closing details. Dialog must support keyboard entry, Escape, and focus return. Include no results and meaningful storage-failure recovery. Support 375/768/1440 widths with a scoped table/list if needed. Records: 101 تسرب ماء في المطبخ open; 102 إصلاح إنارة المدخل done; 103 فحص جهاز التكييف open. Make the task usable and inspect the actual result if browser tools are available. Do not deploy or use external assets. Save a concise evidence/limitations report alongside the page.",
+      "expected_output": "Runnable task-oriented RTL page preserving the explicit identity and stillness, with truthful demo content and functioning state/persistence/keyboard behavior.",
+      "files": [],
+      "assertions": [
+        "Specified identity and stillness are preserved rather than rejected by a generic-style rule.",
+        "Search and status filter change the rendered records and no-results state is reachable.",
+        "Resolving a request changes status and survives reload.",
+        "Dialog Escape and focus return work; search/filter context is retained.",
+        "Document reflows without unintended overflow; Arabic direction and readable text are present."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "no-motion-reference-plan",
+      "prompt": "Planning only, no implementation: adapt a supplied static museum archive reference using black/white, a centered heading, system fonts, and equal collection cards. The curator explicitly wants these choices preserved and no motion. Explain the decisions, applicable verification and asset needs. No visitor metrics, endorsements or photography have been supplied. Collection metadata and navigation can be drafted; real provenance facts cannot be invented. Do not request approval for the supplied visual direction.",
+      "expected_output": "Faithful reference-led plan with justified stillness, relevant states, truthful content and no arbitrary ban/approval loop.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "essential-versus-optional-assets",
+      "prompt": "Planning only, no implementation: a shoe launch requires an accurate rotatable model of the real shoe, but no GLB or photos were supplied. Optional background grain can be generated. I have already authorized a clearly labeled generic 3D placeholder for the prototype, with a swap point, while the real asset is pending. Explain what can proceed and what remains blocked for final fidelity. Do not ask for the same authorization again.",
+      "expected_output": "Acknowledges existing substitute authorization, permits independent prototype work, retains truth/final-fidelity limits and a precise asset manifest.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "expressive-record-archive",
+      "prompt": "Build a distinctive self-contained English one-page public archive called Tide Lines, for people exploring coastal field recordings. The primary task is to discover a recording, inspect its source metadata, and join a local listening walk. This is a concept prototype: clearly label all supplied records as demonstration data. Records: TL-01, Stone Quay, 12 Oct 2026, duration 04:12, notes water beneath a wooden pier; TL-02, East Steps, 13 Oct 2026, duration 02:38, notes wind through railings; TL-03, Harbour Wall, 14 Oct 2026, duration 05:06, notes distant bell and shoreline. No audio files, photography, logos or external assets exist; I authorize an original CSS/SVG/typographic composition and explicitly labeled non-playing audio placeholders with replaceable paths. Do not generate bitmap images or invent testimonials, visitor numbers, measured waveforms, live data, or research claims. Choose a subject-specific identity and one coherent static or restrained motion idea. Let visitors select a record and see its metadata, reach the listening-walk sign-up, and get useful validation and success feedback (prototype only, no actual submission). Keep content accessible with reduced motion and keyboard operation, and re-compose at 375/768/1440. Save index.html and a concise evidence/limitations report. Do not deploy.",
+      "expected_output": "Subject-specific expressive surface with truthful prototype status, usable record-selection and sign-up, original code-native imagery, responsive and motion-safe behavior.",
+      "files": [],
+      "assertions": [
+        "All supplied metadata is present and demo status is explicit.",
+        "Audio absence is clear; conceptual visual is not misrepresented as measured data.",
+        "Record selection changes visible metadata.",
+        "Sign-up validation and local prototype success are reachable without real submission.",
+        "Primary content remains usable at narrow widths and with reduced motion."
+      ]
+    }
+  ],
+  "holdout_policy": "Additional prompts must be frozen before running; do not report these development cases as held-out evidence."
+}

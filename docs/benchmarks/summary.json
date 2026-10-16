@@ -1,0 +1,22 @@
+{
+  "release": "0.5.0",
+  "date": "2026-10-16",
+  "baseline": "0.4.0",
+  "localVerifierSuite": {"tests": 15, "passed": 15, "failed": 0, "skipped": 0, "scope": "9 policy, 3 bundle, 2 packaging, 1 real browser fixture suite"},
+  "buildComparison": {
+    "cases": 2,
+    "builds": 4,
+    "repeatedTrialsPerCaseCondition": 1,
+    "finalAfterRepairTaskChecks": "Both conditions met the exercised task goals in both cases",
+    "visualPreferences": {"nightLedger": "baseline, narrowly", "secondSeat": "candidate, narrowly"},
+    "constrainedRtlPlan": "tie",
+    "sameModelFamily": true,
+    "actualTokenOrCostData": null,
+    "limitations": ["small sample", "one critic per comparison", "file-URL local testing", "Night Ledger development case known during authoring", "possible procedural blinding leak in Night Ledger plan resource inventories"]
+  },
+  "conditionalProtocolProbes": {"cases": 4, "scope": "independent planning-only behavior, no implementation or executed acceptance checks"},
+  "descriptionSelection": {"correct": 12, "total": 12, "actualHostInvocation": false, "strictMetadataOnlyRead": false, "deviation": "Initial read also exposed a small amount of introductory body text; disclosed by runner"},
+  "coreCodepoints": {"baseline": 8064, "candidate": 6994},
+  "archiveReportedReferencesRead": {"baseline": 9, "candidate": 4, "scope": "self-reported relevant Markdown references, not token telemetry"},
+  "notEstablished": ["universal aesthetic superiority", "full WCAG conformance", "actual screen-reader behavior", "physical-device performance", "field p75 performance", "cross-model reliability"]
+}

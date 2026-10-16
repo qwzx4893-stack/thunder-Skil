@@ -1,0 +1,22 @@
+# Local research, evaluation workspaces and historical archives
+_build/
+dist/
+node_modules/
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.zip
+*.skill
+.DS_Store
+Thumbs.db
+
+# Host-specific state and credentials
+.codex/
+.agents/
+.claude/settings.local.json
+credentials*
+*token*.txt

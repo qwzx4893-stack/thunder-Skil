@@ -1,0 +1,9 @@
+interface:
+  display_name: "Thunder Skil"
+  short_description: "Subject-led web design, useful UI, and honest visual verification"
+  icon_small: "./assets/thunder-mark.svg"
+  brand_color: "#D58A16"
+  default_prompt: "Use $immersive-web-studio to design or improve this interface around its real content, visitor task, and rendered evidence."
+
+policy:
+  allow_implicit_invocation: true

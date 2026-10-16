@@ -1,0 +1,68 @@
+{
+  "protocol_note": "The initial twelve-line metadata read inadvertently also exposed the heading, introduction and start of routing text. Selection decisions above use only name/description; this is a protocol deviation, not a strictly metadata-only read.",
+  "cases": [
+    {
+      "selected": true,
+      "id": "s01",
+      "reason": "Product landing pages and usable web purchase paths fit the description."
+    },
+    {
+      "selected": true,
+      "id": "s02",
+      "reason": "Screenshot-based visual hierarchy review is a visual review of a web interface."
+    },
+    {
+      "selected": true,
+      "id": "s03",
+      "reason": "Overlapping RTL form labels are a focused visual correction in an existing interface."
+    },
+    {
+      "selected": true,
+      "id": "s04",
+      "reason": "Faithful implementation of supplied website references is explicitly included; preserve its layout."
+    },
+    {
+      "selected": true,
+      "id": "s05",
+      "reason": "Purposeful WebGL and web usability fall within the description."
+    },
+    {
+      "selected": true,
+      "id": "s06",
+      "reason": "Redesigning dashboard states affects a product interface."
+    },
+    {
+      "selected": false,
+      "id": "s07",
+      "reason": "Backend-only PostgreSQL optimization is explicitly outside scope."
+    },
+    {
+      "selected": false,
+      "id": "s08",
+      "reason": "Smart-contract security auditing does not design or review a web interface."
+    },
+    {
+      "selected": false,
+      "id": "s09",
+      "reason": "Standalone print design is explicitly excluded."
+    },
+    {
+      "selected": false,
+      "id": "s10",
+      "reason": "A backend helper rename without interface effects is a generic code change outside scope."
+    },
+    {
+      "selected": false,
+      "id": "s11",
+      "reason": "A generic HTTP status explanation is not web interface design, implementation or visual review."
+    },
+    {
+      "selected": false,
+      "id": "s12",
+      "reason": "A database migration with frontend explicitly excluded is backend-only work."
+    }
+  ],
+  "actual_host_activation": false,
+  "basis": "SKILL.md name and description",
+  "classification": "description-selection classification"
+}

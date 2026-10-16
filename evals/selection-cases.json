@@ -1,0 +1,17 @@
+{
+  "scope": "Description-selection probe only; not actual host invocation telemetry",
+  "cases": [
+    {"id": "s01", "prompt": "Build a distinctive product landing page with a usable mobile purchase path.", "should_select": true},
+    {"id": "s02", "prompt": "Review this screenshot and explain why the visual hierarchy feels weak.", "should_select": true},
+    {"id": "s03", "prompt": "Fix the overlapping Arabic labels in this existing RTL settings form.", "should_select": true},
+    {"id": "s04", "prompt": "Implement this supplied website reference faithfully, preserving its static equal-card layout.", "should_select": true},
+    {"id": "s05", "prompt": "Plan a purposeful WebGL product scene with a usable fallback.", "should_select": true},
+    {"id": "s06", "prompt": "Redesign the empty and failed-save states in this task dashboard.", "should_select": true},
+    {"id": "s07", "prompt": "Optimize a PostgreSQL query; do not change any UI.", "should_select": false},
+    {"id": "s08", "prompt": "Audit this Solidity contract for reentrancy.", "should_select": false},
+    {"id": "s09", "prompt": "Create a print-ready wedding invitation PDF.", "should_select": false},
+    {"id": "s10", "prompt": "Rename a backend helper function without changing behavior or interface.", "should_select": false},
+    {"id": "s11", "prompt": "Explain what an HTTP 409 response means.", "should_select": false},
+    {"id": "s12", "prompt": "Write a database migration for a theme preference column; leave the frontend alone.", "should_select": false}
+  ]
+}

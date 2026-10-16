@@ -1,0 +1,57 @@
+name: Validate skill and browser fixtures
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - name: Validate runtime bundle
+        run: npm run validate
+      - name: Install isolated browser test tooling
+        run: npm install --no-save --ignore-scripts --package-lock=false playwright@1.64.1
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Resolve browser executable
+        run: |
+          BROWSER_PATH=$(node -p "require('playwright').chromium.executablePath()")
+          echo "BROWSER_EXECUTABLE=$BROWSER_PATH" >> "$GITHUB_ENV"
+      - name: Run all verifier tests
+        run: npm test
+      - name: Smoke the published example artifacts
+        run: |
+          for DEMO_FILE in docs/benchmarks/artifacts/*.html; do
+            DEMO_NAME=$(basename "${DEMO_FILE%.html}")
+            node scripts/audit.mjs "$DEMO_FILE" --out "test-results/$DEMO_NAME"
+          done
+      - name: Build portable release archive
+        run: npm run package
+      - name: Check ZIP integrity with an independent reader
+        run: unzip -t dist/immersive-web-studio-*.skill
+      - name: Upload checked bundle
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: thunder-skil-bundle
+          path: dist/immersive-web-studio-*.skill
+          if-no-files-found: error
+      - name: Upload bounded example reports and screenshots
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: example-smoke-evidence
+          path: test-results/
+          if-no-files-found: ignore

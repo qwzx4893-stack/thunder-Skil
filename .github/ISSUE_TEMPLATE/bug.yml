@@ -1,0 +1,28 @@
+name: Skill behavior or verifier bug
+description: Report an observed failure with enough evidence to reproduce it.
+labels: [bug]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Task and environment
+      description: Skill version, model/host when known, relevant input and intended result. Remove secrets and private client data.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What actually happened?
+      description: Include a minimal reproduction, relevant state or screenshot. Separate observed behavior from interpretation.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and scope
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Checks performed and remaining uncertainty

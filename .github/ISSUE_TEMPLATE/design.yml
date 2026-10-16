@@ -1,0 +1,25 @@
+name: Design workflow improvement
+description: Propose a focused improvement grounded in a real task.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: failure
+    attributes:
+      label: What design decision is currently weak?
+      description: Describe a concrete task and artifact, not just a preferred aesthetic.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Smallest useful adaptation
+      description: Include source links, applicability, context cost and conflict risks.
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: How could the change be evaluated?
+      description: Include a counterexample where the proposed rule should not apply.
+    validations:
+      required: true
