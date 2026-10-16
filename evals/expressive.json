@@ -1,0 +1,24 @@
+{
+  "skill_name": "immersive-web-studio",
+  "scope": "One focused test after user corrected the asset setup and limited usage. Main-agent implementation and personal critique; no new paired runs or critic agents.",
+  "evals": [
+    {
+      "id": 101,
+      "name": "apollo-real-archive-experience",
+      "prompt": "Build a coherent high-ambition expressive editorial experience about Apollo 11 using eight supplied real NASA archival photographs, an actual NASA montage/captions and licensed local fonts. The visual idea must extend across the opening, authored mission sequence, original truthful motion graphics, human-scale encounter, inspectable source archive and resolution. Use media deliberately with typography, colour, transitions and native-scroll continuity; no generated replacement images, invented telemetry, fake NASA affiliation, generic photo shuffle or dead controls. Retain a deliberate phone, keyboard and reduced-motion experience. Main agent personally reviews pixels, temporal states and actual tasks, repairs demonstrated causes in the skill and reopens affected paths. Complete this one focused case without broad benchmarking.",
+      "files": [
+        "docs/expressive/apollo/assets/",
+        "docs/expressive/apollo/ASSETS.md"
+      ],
+      "expected_output": "Runnable site, desktop/mobile/temporal/task evidence, personal critique and documented skill corrections.",
+      "assertions": [
+        "All eight original photographs have honest identities and NASA record links",
+        "Chapter image/title/credit remain synchronized under rapid selection",
+        "Archive filtering and keyboard photograph viewing work",
+        "Archival film advances, captions load and playback pauses on close",
+        "Reflow at 320/390/1024/1440 and reduced-motion paths retain core tasks"
+      ]
+    }
+  ],
+  "limits": "One maker-reviewed development example cannot establish comparative superiority, independent human preference, award eligibility or full accessibility/field performance. Earlier inadequate generated-image setups are private diagnostic work, not representative award-level tests."
+}

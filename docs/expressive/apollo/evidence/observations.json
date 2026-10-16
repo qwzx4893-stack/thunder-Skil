@@ -1,0 +1,68 @@
+{
+  "scope": "Scoped replay/capture, not aesthetic grading",
+  "views": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "reduce": false,
+      "overflow": 0,
+      "broken": 0
+    },
+    {
+      "name": "tablet",
+      "width": 1024,
+      "height": 768,
+      "reduce": false,
+      "overflow": 0,
+      "broken": 0
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "reduce": false,
+      "overflow": 0,
+      "broken": 0
+    },
+    {
+      "name": "small",
+      "width": 320,
+      "height": 812,
+      "reduce": false,
+      "overflow": 0,
+      "broken": 0
+    },
+    {
+      "name": "mobile-reduced",
+      "width": 390,
+      "height": 844,
+      "reduce": true,
+      "overflow": 0,
+      "broken": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "mobile",
+      "rapidChapterSelection": "caption/image/current state agree"
+    },
+    {
+      "name": "mobile",
+      "filter": 5,
+      "viewerKeyboard": "next and Escape",
+      "film": "playback advanced; captions loaded"
+    },
+    {
+      "name": "mobile-reduced",
+      "rapidChapterSelection": "caption/image/current state agree"
+    },
+    {
+      "name": "mobile-reduced",
+      "filter": 5,
+      "viewerKeyboard": "next and Escape",
+      "film": "playback advanced; captions loaded"
+    }
+  ],
+  "errors": []
+}

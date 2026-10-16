@@ -45,6 +45,8 @@ jobs:
             DEMO_NAME=$(basename "$(dirname "$DEMO_FILE")")
             node scripts/capture-showcase.mjs "$DEMO_FILE" "test-results/replay-$DEMO_NAME"
           done
+      - name: Replay the single focused expressive study
+        run: node scripts/capture-apollo.mjs test-results/apollo
       - name: Build portable release archive
         run: npm run package
       - name: Check ZIP integrity with an independent reader

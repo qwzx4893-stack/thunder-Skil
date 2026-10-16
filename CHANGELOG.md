@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.0 — 2026-10-16
+
+- Added a routed expressive-direction reference for explicit high creative ambition: rendered alternatives, authored sequence, risky production work, real media coverage, mobile framing and honest creative acceptance.
+- Clarified that minimum complexity must fulfil the intended experience; added synchronized media/text transitions and stale-request cancellation to motion guidance.
+- Completed one focused main-agent maker-reviewed Apollo 11 study with eight real NASA photographs, archival film/captions, OFL fonts, original schematic motion graphics and responsive/task evidence. Earlier under-supplied generated-image diagnostics are not advertised as representative award-level tests.
+- Published critique and corrections separately from aesthetic/award claims. Added local example serving and scoped replay in CI.
+- Fixed smoke-helper text sampling for non-text inputs and masked password values in reports, with browser counterexamples retaining submit-text contrast failures.
+
 ## 0.5.1 — 2026-10-16
 
 - Completed four compact maker-reviewed design cases: two from scratch (Midad, After Hours) and two with deliberately sourced, credited imagery (Field Notes, Still / Form). No subagent critic or automatic aesthetic grader was used in this round.

@@ -1,5 +1,7 @@
 # Purposeful motion
 
+For transitions that change a media subject and its text/credit, prepare the incoming asset and commit the related state together at a deliberate transition point. Do not show the next caption over the previous photograph while loading or fading. Cancel stale requests when input reverses or arrives quickly; recheck direct selection, repeated input and reduced motion. A smooth individual property does not guarantee coherent choreography.
+
 Load for L1/L2 animation. Start from cause, hierarchy, continuity, sequence, or spatial relation. Static can be the correct choice. User-triggered feedback and ambient brand motion have different costs.
 
 ## Choose the smallest mechanism

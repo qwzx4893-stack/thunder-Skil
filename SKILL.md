@@ -18,6 +18,7 @@ Load only the reference needed for the active decision, then return to the work.
 | Focused correction | Existing component and adjacent states | Smallest coherent fix; no research campaign, hero or new design system |
 | Product UI | references/product-ui.md | Task, information, state and recovery before decoration |
 | Open expressive design | references/generators.md | Subject-led direction; references/precedent-lab.md when precedent research resolves a consequential unknown |
+| Distinctive flagship / experiential / award-inspired brief | references/expressive-direction.md | Explicit creative ambition, a tested organizing mechanism and authored sequence; a competent template is insufficient |
 | Supplied reference | references/design-md-protocol.md | Preserve requested identity and fidelity; adapt only necessary responsive/behavior details |
 | Visual review | references/anti-slop.md | Ground findings in screenshots/behavior; implement only if requested |
 | Planning only | Relevant route above | Decisions, dependencies and proposed checks; no build or claimed verification |
@@ -42,7 +43,7 @@ Required assets must be available, legitimately producible, or honestly missing.
 
 For craft decisions load references/visual-language.md; for copy/specification use references/prompt-anatomy.md. Before committing an open look and after rendering, use references/anti-slop.md to challenge default clusters. Keep a familiar treatment when it serves this brief; diagnostics are not universal font/color/geometry bans.
 
-Use the lowest immersion level that helps: L0 still; L1 DOM/CSS motion; L2 shader/media plane; L3 spatial 3D; L4 live input/physics. Static composition can be the signature. Load references/motion-system.md or references/webgl-3d.md only when needed. L2+ requires a concrete benefit, lifecycle and fallback; preserve the task when decoration is removed. Necessary temporal content needs pause/step/static inspection or semantic data where possible; disclose a genuine equivalence limit.
+Use the lowest immersion level that fulfills the intended experience: L0 still; L1 DOM/CSS motion; L2 shader/media plane; L3 spatial 3D; L4 live input/physics. Complexity restraint must not quietly lower an explicit creative ambition. Static composition can be the signature. Load references/motion-system.md or references/webgl-3d.md only when needed. L2+ requires a concrete benefit, lifecycle and fallback; preserve the task when decoration is removed. Necessary temporal content needs pause/step/static inspection or semantic data where possible; disclose a genuine equivalence limit.
 
 ## Inspect, repair, deliver
 

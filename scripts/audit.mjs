@@ -45,8 +45,11 @@ export function collectDOM() {
       if (content && !['none', 'normal', '""', "''"].includes(content)) pseudo.push(el.tagName + side);
     }
     const direct = [...el.childNodes].filter(n => n.nodeType === 3).map(n => n.textContent).join('').trim();
-    // Inputs do not expose their text as child text nodes; inspect their value/placeholder.
-    const value = direct || (el.matches('input,textarea') ? el.value || el.placeholder : '');
+    // Only value-bearing text controls render their value as text. Range/checkbox
+    // values are state, not glyphs; their non-text contrast still needs review.
+    const rendersValue = el.matches('textarea,input:not([type=range]):not([type=checkbox]):not([type=radio]):not([type=color]):not([type=file]):not([type=image]):not([type=hidden])');
+    const shownValue = el.matches('input[type=password]') && el.value ? '••••' : el.value;
+    const value = direct || (rendersValue ? shownValue || el.placeholder : '');
     if (value && !el.matches(':disabled') && !el.closest('[inert]')) {
       const layers = []; let reason = null;
       for (let a = el; a; a = a.parentElement) {

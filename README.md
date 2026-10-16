@@ -11,14 +11,28 @@
 
 <p align="center">
   <strong>Subject-led web design. Useful interfaces. Evidence you can inspect.</strong><br>
-  <a href="#design-gallery">Design gallery</a> · <a href="#get-started">Install</a> · <a href="docs/self-review-0.5.1.md">Latest review</a> · <a href="docs/research.md">Research</a> · <a href="README.ar.md">العربية</a>
+  <a href="docs/expressive/README.md">Focused study</a> · <a href="#get-started">Install</a> · <a href="#design-gallery">Earlier gallery</a> · <a href="docs/research.md">Research</a> · <a href="README.ar.md">العربية</a>
 </p>
 
 Thunder Skil is a portable agent skill for building and improving web interfaces with a reason for their composition. It connects the visitor's task, the subject's real evidence, assets, art direction, responsive behavior and rendered review.
 
 A handcrafted product page, an Arabic operations tool and an exact reference implementation need different decisions. The skill routes them accordingly. It can choose stillness, a conventional control or a compact information model when that serves the work.
 
-**Version:** 0.5.1 · **Runtime identifier:** `immersive-web-studio` · **No required API key, paid service or package runtime for the instructions.**
+**Version:** 0.6.0 · **Runtime identifier:** `immersive-web-studio` · **No required API key, paid service or package runtime for the instructions.**
+
+## Focused expressive study · A World Away
+
+Eight real NASA photographs, an archival film/captions, an authored mission sequence, an original schematic motion graphic and a working photographic viewer. The latest user-requested round concentrates on **one richer case**, with direct main-agent critique and corrections in the skill. It does not claim an Awwwards award or a controlled superiority result.
+
+[![A World Away — Apollo 11 editorial experience](docs/expressive/apollo/evidence/desktop.png)](docs/expressive/apollo/evidence/desktop.png)
+
+[Phone](docs/expressive/apollo/evidence/mobile.png) · [Mission chapter](docs/expressive/apollo/evidence/desktop-chapter-1.png) · [Motion graphic](docs/expressive/apollo/evidence/desktop-motion-graphic.png) · [Viewer](docs/expressive/apollo/evidence/mobile-viewer.png) · [Film](docs/expressive/apollo/evidence/mobile-film.png) · [Runnable source](docs/expressive/apollo/index.html) · [Personal critique and fixes](docs/expressive/README.md) · [Real asset credits](docs/expressive/apollo/ASSETS.md)
+
+Run `node scripts/serve-example.mjs docs/expressive/apollo` and open the printed local URL for the complete experience, including native video captions. No build or remote runtime assets. Earlier simple examples below remain historical showcases, not evidence of award-level output.
+
+[![Sampled preview of the real chapter transitions](docs/expressive/apollo/evidence/motion.webp)](docs/expressive/apollo/evidence/motion.webp)
+
+Sampled motion preview of the actual page, not a frame-rate or performance measurement.
 
 ## What makes it useful
 
@@ -38,7 +52,10 @@ A handcrafted product page, an Arabic operations tool and an exact reference imp
 
 ## Design gallery
 
-**Six runnable concepts. Four new maker-reviewed cases. Two ways to start.** The latest round used direct main-agent critique, with a reusable skill correction after each case. No subagent critic or automated aesthetic score was used. The two earlier cases retain their separate comparison history. [Read the findings, before/after evidence and limits →](docs/self-review-0.5.1.md)
+<details>
+<summary>Open the six earlier 0.5.1 showcases and their review history</summary>
+
+**Six earlier runnable concepts. Four 0.5.1 maker-reviewed cases. Two ways to start.** That historical round used direct main-agent critique, with a reusable skill correction after each case. No subagent critic or automated aesthetic score was used. The two 0.5.0 cases retain their separate comparison history. [Read the historical findings and limits →](docs/self-review-0.5.1.md)
 
 ```mermaid
 flowchart LR
@@ -95,6 +112,8 @@ An observation register and a furniture-repair clinic. Original code/typography 
 | [Phone](docs/benchmarks/artifacts/night-ledger-candidate-375.png) · [HTML](docs/benchmarks/artifacts/night-ledger-candidate.html) | [Phone](docs/benchmarks/artifacts/second-seat-candidate-375.png) · [HTML](docs/benchmarks/artifacts/second-seat-candidate.html) |
 
 Click any screenshot for its full size. To run a case, clone/download and open its HTML locally; GitHub's source viewer does not execute it. The four new cases work without a server or image network access. Their image rights are documented in the [asset ledger](docs/examples/ASSETS.md).
+
+</details>
 
 ## Get started
 
@@ -183,4 +202,4 @@ Useful contributions start with a concrete design or implementation failure, a s
 
 ## License
 
-[MIT](LICENSE) for code and original project assets. Third-party showcase imagery and its appearances in screenshots retain the [documented image rights](docs/examples/ASSETS.md). Research links acknowledge influence, not endorsement by the named organizations.
+[MIT](LICENSE) for code and original project assets. External media/fonts and their appearances in screenshots retain the [documented source rights](docs/asset-provenance.md). Research links acknowledge influence, not endorsement by the named organizations.

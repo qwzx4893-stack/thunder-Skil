@@ -34,4 +34,6 @@ The old _build/tests harness and historical results remain development evidence;
 
 ## Showcase capture and scoped replay
 
+The single 0.6.0 focused case uses `node scripts/capture-apollo.mjs <output-dir>`. It serves only the example locally, captures use-size states and replays chapter races, filtering, keyboard viewing, real film/caption loading and reduced motion. It does not grade aesthetics. `node scripts/serve-example.mjs docs/expressive/apollo` serves the runnable experience on loopback for manual inspection; HTTP enables native caption loading. External media/font rights remain in the example's ASSETS.md. Native range/checkbox values are not text-contrast glyph samples; meaningful non-text UI still needs explicit review.
+
 `node scripts/capture-showcase.mjs docs/examples/<case>/index.html <output-dir> [chromium-executable]` records full-page desktop (1440×1000) and mobile (375×860) views and a small, case-specific interaction replay. It uses the same installed Playwright resolver. The JSON records image loading, document overflow, uncaught page errors and observed state text. It has no aesthetic grader or score. Main-agent maker critique and the resulting skill corrections are documented separately in docs/self-review-0.5.1.md. Screenshots do not establish full accessibility or field performance.

@@ -28,6 +28,13 @@ test('real browser fixtures: contrast, unknown backgrounds, names, overflow, mot
     assert.equal(assessDOM(d, []).find(c => c.id === 'flat-text-contrast').status, 'FAIL');
     d = await sample('<label for="q">Search</label><input id="q"><button aria-label="Close"></button>');
     assert.equal(d.unnamed.length, 0);
+    d = await sample('<label for="r">Position</label><input id="r" type="range" value="50" style="color:white;background:white"><label for="c">Choose</label><input id="c" type="checkbox" value="Not rendered" style="color:white;background:white">');
+    assert.equal(d.text.some(s => s.text === '50' || s.text === 'Not rendered'), false);
+    assert.equal(assessDOM(d, []).find(c => c.id === 'flat-text-contrast').status, 'PASS');
+    d = await sample('<input type="submit" value="Visible submit text" style="color:white;background:white">');
+    assert.equal(assessDOM(d, []).find(c => c.id === 'flat-text-contrast').status, 'FAIL');
+    d = await sample('<label for="secret">Password</label><input id="secret" type="password" value="not-public-report-text">');
+    assert.equal(d.text.some(s => s.text.includes('not-public-report-text')), false);
     d = await sample('<button></button><p>Visible</p>');
     assert.equal(assessDOM(d, []).find(c => c.id === 'control-names').status, 'UNVERIFIED');
     d = await sample('<div style="width:1000px">Overflow</div>');
