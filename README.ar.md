@@ -1,4 +1,11 @@
-<p align="center"><img src="assets/thunder-skil-banner.jpg" alt="Thunder Skil — تصميم بقصد، وتنفيذ بدليل" width="100%"></p>
+<p align="center"><img src="assets/brand/cover.png" alt="Thunder Skil — اتجاه واضح، وواجهة تعمل، ونتيجة قابلة للفحص" width="100%"></p>
+
+<p align="center">
+  <a href="https://github.com/qwzx4893-stack/thunder-Skil/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/qwzx4893-stack/thunder-Skil/ci.yml?style=flat-square&amp;label=checks&amp;color=71836a" alt="حالة فحوص المشروع"></a>
+  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/github/v/release/qwzx4893-stack/thunder-Skil?style=flat-square&amp;color=f5b93d&amp;label=release" alt="أحدث إصدار"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-eeeae0?style=flat-square" alt="ترخيص الشفرة MIT"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/docs-English%20%2F%20العربية-eeeae0?style=flat-square" alt="توثيق عربي وإنجليزي"></a>
+</p>
 
 <p align="center"><strong>مهارة لتصميم واجهات مرتبطة بموضوعها، وسلوك مفيد، ومراجعة يمكن فحصها.</strong><br><a href="README.md">English</a> · <a href="docs/benchmarks/README.md">نتائج التحقق</a> · <a href="docs/research.md">المصادر والمنهج</a></p>
 
@@ -6,11 +13,17 @@
 
 الإصدار **0.6.0**. اسم الاستدعاء الداخلي بقي `immersive-web-studio` للحفاظ على التوافق. لا تحتاج التعليمات توكنًا أو خدمة مدفوعة أو حزمة برمجية لتعمل.
 
+| ابدأ التنفيذ | شاهد النتيجة | افهم المنهج | استكشف المصادر |
+|:---|:---|:---|:---|
+| [تنزيل المهارة ↗](https://github.com/qwzx4893-stack/thunder-Skil/releases/latest) | [المثال والنقد والإصلاحات ↗](docs/expressive/README.md) | [التعليمات الأساسية ↗](SKILL.md) | [البحث والمراجع ↗](docs/research.md) |
+
 ## اختبار مركّز: A World Away
 
-تجربة أرشيفية عن Apollo 11 بثماني صور حقيقية من NASA، وفيلم أرشيفي مع ترجمة نصية، وتسلسل للمهمة، وموشن جرافيك تخطيطي أصلي، وعارض صور يعمل. بعد تصحيح المستخدم لإعداد الاختبار، ركزت الجولة على **حالة واحدة غنية بالأصول الحقيقية**، مع نقد مباشر من الوكيل الأساسي وإصلاح الأسباب في المهارة. ليست ادعاءً بالفوز في Awwwards أو إثباتًا للتفوق العام.
+تجربة أرشيفية عن Apollo 11 بثماني صور حقيقية من NASA، وفيلم مع ترجمة نصية، ورحلة من ثلاثة فصول، وموشن جرافيك تخطيطي أصلي، وعارض صور يعمل. **حالة واحدة مركّزة، راجعها الوكيل الذي نفّذها بنفسه وأصلح أسباب النقد في المهارة.** [المنهج والنتائج وحدودها ←](docs/expressive/README.md)
 
-[![A World Away — تجربة Apollo 11](docs/expressive/apollo/evidence/desktop.png)](docs/expressive/apollo/evidence/desktop.png)
+[![A World Away — لقطات فعلية للحاسوب والهاتف وفصول الرحلة والموشن والفيلم](assets/brand/study-board.png)](docs/expressive/README.md)
+
+<p align="center"><sub>لقطات من التنفيذ الفعلي · أصول NASA · الحاسوب والهاتف وحالات التفاعل · <a href="docs/expressive/apollo/ASSETS.md">المصادر والحقوق</a></sub></p>
 
 [الهاتف](docs/expressive/apollo/evidence/mobile.png) · [فصول الرحلة](docs/expressive/apollo/evidence/desktop-chapter-1.png) · [الموشن جرافيك](docs/expressive/apollo/evidence/desktop-motion-graphic.png) · [عارض الصور](docs/expressive/apollo/evidence/mobile-viewer.png) · [الفيلم](docs/expressive/apollo/evidence/mobile-film.png) · [التشغيل](docs/expressive/apollo/index.html) · [النقد والإصلاحات](docs/expressive/README.md) · [مصادر الأصول](docs/expressive/apollo/ASSETS.md)
 
@@ -19,6 +32,17 @@
 [![معاينة انتقالات الفصول من التنفيذ الفعلي](docs/expressive/apollo/evidence/motion.webp)](docs/expressive/apollo/evidence/motion.webp)
 
 معاينة حركة مأخوذة من الصفحة الفعلية؛ ليست قياسًا لمعدل الإطارات أو الأداء.
+
+<details>
+<summary><strong>تشغيل التجربة الكاملة محليًا</strong></summary>
+
+```sh
+node scripts/serve-example.mjs docs/expressive/apollo
+```
+
+افتح الرابط المحلي المطبوع لتجربة الفيلم والترجمة وفلترة الأرشيف والتنقل بين الصور بالكيبورد. عارض الشفرة في GitHub لا يشغّل HTML.
+
+</details>
 
 ## معرض التصاميم
 
@@ -82,7 +106,11 @@ flowchart RL
 
 اضغط الصورة لعرضها بالحجم الكامل. لتشغيل مثال، نزّل المستودع وافتح ملف HTML محليًا؛ عارض الشفرة في GitHub لا يشغله. الأمثلة الأربعة الجديدة لا تحتاج خادمًا أو تحميل الصور من الشبكة. [مصادر الصور وشروط استخدامها](docs/examples/ASSETS.md).
 
+</details>
+
 ## ما الذي تفعله؟
+
+![منهج المهارة: البحث، الاتجاه، التنفيذ، ثم مراجعة النتيجة الفعلية](assets/brand/workflow.svg)
 
 - تستخرج اتجاهًا من موضوع المشروع ودليله الحقيقي، بدل الاكتفاء بوصف مثل «فاخر» أو «حديث».
 - تعاين مرجعًا أصليًا حين يحل سؤالًا مهمًا، ثم تحدد العلاقة التي ستُنقل وما لا يصح نسخه.
@@ -94,8 +122,6 @@ flowchart RL
 - تفصل بين ما شوهد، وما اختُبر، وما بقي غير متحقق منه.
 
 ابدأ من [التعليمات الأساسية](SKILL.md). تُقرأ المراجع بحسب القرار الجاري، لا باعتبارها قائمة قراءة إلزامية كاملة.
-
-</details>
 
 ## التثبيت في Codex
 
@@ -142,3 +168,5 @@ npm run package
 رحّب بتحسين يحل إخفاقًا حقيقيًا بأصغر تعديل متماسك، مع حالة مضادة لا ينبغي أن تنطبق عليها القاعدة. اقرأ [دليل المساهمة](CONTRIBUTING.md) و[إرشادات الأمان](SECURITY.md).
 
 الشفرة والأصول الأصلية بترخيص [MIT](LICENSE). صور الأمثلة الخارجية وظهورها في لقطات الشاشة تحتفظ [بحقوقها الموثقة](docs/examples/ASSETS.md) ولا يعاد ترخيصها باسم MIT. الإشارة إلى الشركات والمواقع لا تعني تأييدها للمشروع. المراجعة الجديدة نقد ذاتي من الوكيل الذي بنى الأمثلة، وليست تحكيمًا بشريًا مستقلًا أو إثباتًا للتفوق العام.
+
+<p align="center"><img src="assets/thunder-mark.svg" width="36" height="36" alt=""><br><sub>THUNDER SKIL · تصميم بقصد، وتنفيذ بدليل.</sub><br><a href="#">العودة إلى الأعلى ↑</a></p>

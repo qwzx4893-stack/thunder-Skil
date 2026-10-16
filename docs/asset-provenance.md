@@ -1,5 +1,7 @@
 # Asset provenance
 
+The current README uses original code-authored artwork in `assets/brand/`: an editable HTML cover, a board composed from actual project captures, a workflow SVG and a prepared sharing image. Typography uses the Apollo study's bundled OFL fonts. Screenshot media keep the [study's original source terms](expressive/apollo/ASSETS.md); the presentation layout and original lightning geometry are MIT project artwork. See [artwork sources and export notes](../assets/brand/README.md). The earlier generated banner remains historical and is described below.
+
 `assets/thunder-skil-banner.png` is an original AI-generated repository banner, created with the built-in image-generation tool for this project on 16 October 2026. It is not copied from a reference website. A JPEG export may be supplied for README/social-preview delivery; the artwork is unchanged.
 
 Final generation prompt:

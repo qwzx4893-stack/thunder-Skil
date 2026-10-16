@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="248" viewBox="0 0 1600 248" role="img" aria-labelledby="title desc">
+<title id="title">The Thunder Skil workflow</title><desc id="desc">Research the subject, choose a direction, build a useful slice, then review the actual result.</desc>
+<rect width="1600" height="248" fill="#171917"/>
+<path d="M66 57H1534" stroke="#4e5549"/>
+<g font-family="Arial,sans-serif" fill="#eeeadf"><g font-size="15" letter-spacing="2" fill="#f5b93d"><text x="66" y="43">01 / RESEARCH</text><text x="453" y="43">02 / DIRECTION</text><text x="840" y="43">03 / BUILD</text><text x="1227" y="43">04 / REVIEW</text></g>
+<g font-size="31" font-weight="700"><text x="66" y="117">Find the reason.</text><text x="453" y="117">Make a choice.</text><text x="840" y="117">Make it work.</text><text x="1227" y="117">Look again.</text></g>
+<g font-size="19" fill="#b9bdb1"><text x="66" y="163">Real content. Real context.</text><text x="453" y="163">Type, color, assets, rhythm.</text><text x="840" y="163">A useful slice. A real action.</text><text x="1227" y="163">Pixels, states, corrections.</text></g></g>
+<g fill="#f5b93d"><circle cx="66" cy="57" r="4"/><circle cx="453" cy="57" r="4"/><circle cx="840" cy="57" r="4"/><circle cx="1227" cy="57" r="4"/></g>
+</svg>

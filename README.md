@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="assets/thunder-skil-banner.jpg" alt="Thunder Skil — Design with intent. Build with evidence." width="100%">
+  <img src="assets/brand/cover.png" alt="Thunder Skil — A point of view. A working interface. Evidence you can inspect." width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/qwzx4893-stack/thunder-Skil/actions/workflows/ci.yml"><img src="https://github.com/qwzx4893-stack/thunder-Skil/actions/workflows/ci.yml/badge.svg" alt="Skill validation and browser fixtures"></a>
-  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/github/v/release/qwzx4893-stack/thunder-Skil?color=d58a16" alt="Latest release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-e6e2d7" alt="MIT license"></a>
-  <img src="https://img.shields.io/badge/Node.js-22%2B-586c50" alt="Node.js 22 or later for development helpers">
+  <a href="https://github.com/qwzx4893-stack/thunder-Skil/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/qwzx4893-stack/thunder-Skil/ci.yml?style=flat-square&amp;label=checks&amp;color=71836a" alt="Skill validation and browser fixtures"></a>
+  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/github/v/release/qwzx4893-stack/thunder-Skil?style=flat-square&amp;color=f5b93d&amp;label=release" alt="Latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-eeeae0?style=flat-square" alt="MIT license"></a>
+  <a href="README.ar.md"><img src="https://img.shields.io/badge/docs-English%20%2F%20العربية-eeeae0?style=flat-square" alt="Documentation in English and Arabic"></a>
 </p>
 
 <p align="center">
-  <strong>Subject-led web design. Useful interfaces. Evidence you can inspect.</strong><br>
-  <a href="docs/expressive/README.md">Focused study</a> · <a href="#get-started">Install</a> · <a href="#design-gallery">Earlier gallery</a> · <a href="docs/research.md">Research</a> · <a href="README.ar.md">العربية</a>
+  <strong>Distinctive direction. Useful interfaces. Inspectable work.</strong><br><br>
+  <a href="docs/expressive/README.md">Selected work</a> &nbsp; / &nbsp; <a href="#get-started">Get started</a> &nbsp; / &nbsp; <a href="docs/expressive/README.md">Read the critique</a> &nbsp; / &nbsp; <a href="README.ar.md">العربية</a>
 </p>
 
 Thunder Skil is a portable agent skill for building and improving web interfaces with a reason for their composition. It connects the visitor's task, the subject's real evidence, assets, art direction, responsive behavior and rendered review.
@@ -20,11 +20,17 @@ A handcrafted product page, an Arabic operations tool and an exact reference imp
 
 **Version:** 0.6.0 · **Runtime identifier:** `immersive-web-studio` · **No required API key, paid service or package runtime for the instructions.**
 
+| Start building | Inspect the work | Understand the method | Explore the craft |
+|:---|:---|:---|:---|
+| [Download the skill ↗](https://github.com/qwzx4893-stack/thunder-Skil/releases/latest) | [Focused study & repairs ↗](docs/expressive/README.md) | [Core workflow ↗](SKILL.md) | [Research & sources ↗](docs/research.md) |
+
 ## Focused expressive study · A World Away
 
-Eight real NASA photographs, an archival film/captions, an authored mission sequence, an original schematic motion graphic and a working photographic viewer. The latest user-requested round concentrates on **one richer case**, with direct main-agent critique and corrections in the skill. It does not claim an Awwwards award or a controlled superiority result.
+An archival story told through eight real NASA photographs, film with captions, a three-chapter mission sequence, an original schematic motion graphic and a working photographic viewer. **One focused case, personally reviewed and repaired by the making agent.** [Method, findings and limits →](docs/expressive/README.md)
 
-[![A World Away — Apollo 11 editorial experience](docs/expressive/apollo/evidence/desktop.png)](docs/expressive/apollo/evidence/desktop.png)
+[![A World Away — desktop, phone, narrative, schematic and film excerpts from the real implementation](assets/brand/study-board.png)](docs/expressive/README.md)
+
+<p align="center"><sub>Actual rendered captures · NASA media · Desktop, phone and interaction states · <a href="docs/expressive/apollo/ASSETS.md">Full credits</a></sub></p>
 
 [Phone](docs/expressive/apollo/evidence/mobile.png) · [Mission chapter](docs/expressive/apollo/evidence/desktop-chapter-1.png) · [Motion graphic](docs/expressive/apollo/evidence/desktop-motion-graphic.png) · [Viewer](docs/expressive/apollo/evidence/mobile-viewer.png) · [Film](docs/expressive/apollo/evidence/mobile-film.png) · [Runnable source](docs/expressive/apollo/index.html) · [Personal critique and fixes](docs/expressive/README.md) · [Real asset credits](docs/expressive/apollo/ASSETS.md)
 
@@ -32,9 +38,22 @@ Run `node scripts/serve-example.mjs docs/expressive/apollo` and open the printed
 
 [![Sampled preview of the real chapter transitions](docs/expressive/apollo/evidence/motion.webp)](docs/expressive/apollo/evidence/motion.webp)
 
-Sampled motion preview of the actual page, not a frame-rate or performance measurement.
+<p align="center"><sub>In motion / sampled transitions from the actual page. This is a visual preview, not a performance measurement.</sub></p>
+
+<details>
+<summary><strong>Try the complete experience locally</strong></summary>
+
+```sh
+node scripts/serve-example.mjs docs/expressive/apollo
+```
+
+Open the printed local URL. The page includes film playback, captions, archive filtering and keyboard photo navigation. GitHub's source viewer does not run HTML.
+
+</details>
 
 ## What makes it useful
+
+![Research, direction, build and review: the four-part Thunder Skil workflow](assets/brand/workflow.svg)
 
 | Capability | What the agent actually does |
 |---|---|
@@ -160,7 +179,7 @@ The [0.5.1 self-review](docs/self-review-0.5.1.md) adds four sequential maker-re
 
 **15 local verifier tests passed**, including a real browser fixture suite and release-packaging checks. That establishes behavior of the packaging/contrast/reflow helper checks in their tested environment. It does **not** certify visual taste or complete accessibility.
 
-The current development comparison uses a previous-version baseline and fresh candidate runs on the same expressive-build and constrained-correction prompts. Actual task behavior, qualitative comparison, initial failures, repairs and unavailable coverage are reported separately. Read the report before interpreting a badge as a design-quality claim.
+The earlier development comparison used a previous-version baseline and fresh candidate runs on the same expressive-build and constrained-correction prompts. Actual task behavior, qualitative comparison, initial failures, repairs and unavailable coverage are reported separately. The focused 0.6.0 study is a maker-reviewed case. Read the reports before interpreting a badge as a design-quality claim.
 
 Thunder Skil is not proven universally better than Anthropic, UI/UX Pro Max or other community skills. No test score is presented as a percentage of aesthetic excellence.
 
@@ -181,6 +200,15 @@ The optional smoke helper captures normal/reduced-motion screenshots at 320, 375
 
 ## Inside the repository
 
+| Design decisions | Evidence & examples | Project maintenance |
+|:---|:---|:---|
+| [Core instructions](SKILL.md) | [Selected study](docs/expressive/README.md) | [Changelog](CHANGELOG.md) |
+| [Expressive direction](references/expressive-direction.md) | [Earlier gallery](#design-gallery) | [Contribute](CONTRIBUTING.md) |
+| [Motion system](references/motion-system.md) | [Comparison reports](docs/benchmarks/README.md) | [Report a problem](https://github.com/qwzx4893-stack/thunder-Skil/issues/new/choose) |
+
+<details>
+<summary>Repository map</summary>
+
 ```text
 SKILL.md              Core routing and design-to-verification workflow
 references/           Decision-specific craft, research, product, motion and QA
@@ -191,6 +219,8 @@ docs/                 Research, asset provenance and public evaluation evidence
 assets/               Original banner and icon
 .github/              Pinned CI, issue/PR templates and dependency maintenance
 ```
+
+</details>
 
 See [research and adaptations](docs/research.md), [asset provenance](docs/asset-provenance.md), [changelog](CHANGELOG.md), [contribution guide](CONTRIBUTING.md) and [security guidance](SECURITY.md). Research-site images, private prompts and third-party prompt corpora are not redistributed. The two explicitly sourced showcase images are bundled under their documented original terms.
 
@@ -203,3 +233,5 @@ Useful contributions start with a concrete design or implementation failure, a s
 ## License
 
 [MIT](LICENSE) for code and original project assets. External media/fonts and their appearances in screenshots retain the [documented source rights](docs/asset-provenance.md). Research links acknowledge influence, not endorsement by the named organizations.
+
+<p align="center"><img src="assets/thunder-mark.svg" width="36" height="36" alt=""><br><sub>THUNDER SKIL · Design with intent. Build with evidence.</sub><br><a href="#">Back to top ↑</a></p>
