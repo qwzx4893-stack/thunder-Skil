@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="https://github.com/qwzx4893-stack/thunder-Skil/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/qwzx4893-stack/thunder-Skil/ci.yml?style=flat-square&amp;label=checks&amp;color=71836a" alt="Skill validation and browser fixtures"></a>
-  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/github/v/release/qwzx4893-stack/thunder-Skil?style=flat-square&amp;color=f5b93d&amp;label=release" alt="Latest release"></a>
+  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/badge/release-v0.6.0-f5b93d?style=flat-square" alt="Release 0.6.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-eeeae0?style=flat-square" alt="MIT license"></a>
-  <a href="README.ar.md"><img src="https://img.shields.io/badge/docs-English%20%2F%20العربية-eeeae0?style=flat-square" alt="Documentation in English and Arabic"></a>
+  <a href="README.ar.md"><img src="https://img.shields.io/badge/docs-EN%20%2F%20AR-eeeae0?style=flat-square" alt="Documentation in English and Arabic"></a>
 </p>
 
 <p align="center">

@@ -2,9 +2,9 @@
 
 <p align="center">
   <a href="https://github.com/qwzx4893-stack/thunder-Skil/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/qwzx4893-stack/thunder-Skil/ci.yml?style=flat-square&amp;label=checks&amp;color=71836a" alt="حالة فحوص المشروع"></a>
-  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/github/v/release/qwzx4893-stack/thunder-Skil?style=flat-square&amp;color=f5b93d&amp;label=release" alt="أحدث إصدار"></a>
+  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/badge/release-v0.6.0-f5b93d?style=flat-square" alt="الإصدار 0.6.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-eeeae0?style=flat-square" alt="ترخيص الشفرة MIT"></a>
-  <a href="README.md"><img src="https://img.shields.io/badge/docs-English%20%2F%20العربية-eeeae0?style=flat-square" alt="توثيق عربي وإنجليزي"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/docs-EN%20%2F%20AR-eeeae0?style=flat-square" alt="توثيق عربي وإنجليزي"></a>
 </p>
 
 <p align="center"><strong>مهارة لتصميم واجهات مرتبطة بموضوعها، وسلوك مفيد، ومراجعة يمكن فحصها.</strong><br><a href="README.md">English</a> · <a href="docs/benchmarks/README.md">نتائج التحقق</a> · <a href="docs/research.md">المصادر والمنهج</a></p>
