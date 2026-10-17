@@ -27,6 +27,8 @@ Large text means >=24 CSS px or >=18.66px bold (approximately 700+). Disabled/in
 
 Run the project's relevant build/type/lint checks as appropriate. Use real triggers; a state keyword or an unreachable error branch is not evidence. Screenshots alone do not establish correct behavior. Check representative long content, zoom/enlargement, and RTL if relevant. Do not claim full WCAG conformance from these partial checks.
 
+For clipped content despite zero document overflow, and modal initial focus, Tab boundaries and return focus, use layout-interaction-integrity.md. Do not treat all off-screen rectangles as defects or an open modal class as proof of keyboard usability.
+
 ## Portable smoke helper
 
 From the project:

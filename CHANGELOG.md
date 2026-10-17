@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.1 — 2026-10-17
+
+- Integrated the reviewed enhanced craft guidance with scoped diagnostics; split layout/interaction details into a conditional reference so every runtime reference fits the project's loader target.
+- Clarified visible-content clipping checks and modal keyboard acceptance; kept original baseline files untouched.
+- Repaired both dialogs in the existing Antigravity architectural example using native modal dialogs, focus boundaries and return focus. Published current captures and a bounded replay separately from earlier comparison claims.
+- No new design benchmark or claim of doubled quality. See docs/fixes/README.md for source provenance, exercised behavior and limits.
+
 ## 0.6.0 — 2026-10-16
 
 - Added a routed expressive-direction reference for explicit high creative ambition: rendered alternatives, authored sequence, risky production work, real media coverage, mobile framing and honest creative acceptance.

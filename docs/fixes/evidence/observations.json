@@ -1,0 +1,16 @@
+{
+  "scope": "Targeted repair replay, not a new design benchmark or accessibility certification",
+  "checks": [
+    "Visible hero text/action fragments contained at 320px, reduced motion",
+    "Visible hero text/action fragments contained at 390px, reduced motion",
+    "Visible hero text/action fragments contained at 1440px, reduced motion",
+    "Drawer initial focus, bidirectional boundaries, Escape and return: hero-acquire-btn",
+    "Drawer initial focus, bidirectional boundaries, Escape and return: open-drawer-btn",
+    "Local price, confirmation focus, changed-state boundaries and close-button return",
+    "Plate switching and archive search retain expected behavior",
+    "Loupe initial focus, bidirectional boundaries and return",
+    "No uncaught page errors in exercised paths"
+  ],
+  "errors": [],
+  "status": "PASS"
+}

@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/qwzx4893-stack/thunder-Skil/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/qwzx4893-stack/thunder-Skil/ci.yml?style=flat-square&amp;label=checks&amp;color=71836a" alt="حالة فحوص المشروع"></a>
-  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/badge/release-v0.6.0-f5b93d?style=flat-square" alt="الإصدار 0.6.0"></a>
+  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/badge/release-v0.6.1-f5b93d?style=flat-square" alt="الإصدار 0.6.1"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-eeeae0?style=flat-square" alt="ترخيص الشفرة MIT"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/docs-EN%20%2F%20AR-eeeae0?style=flat-square" alt="توثيق عربي وإنجليزي"></a>
 </p>
@@ -11,7 +11,9 @@
 
 **Thunder Skil** تساعد الوكيل على تحويل مهمة الزائر ومحتوى المشروع وأصوله إلى قرارات تصميم وتنفيذ. لا تفرض شكلًا واحدًا على موقع حرفي ولوحة تشغيل ومرجع يطلب المستخدم نسخه بدقة.
 
-الإصدار **0.6.0**. اسم الاستدعاء الداخلي بقي `immersive-web-studio` للحفاظ على التوافق. لا تحتاج التعليمات توكنًا أو خدمة مدفوعة أو حزمة برمجية لتعمل.
+الإصدار **0.6.1**. اسم الاستدعاء الداخلي بقي `immersive-web-studio` للحفاظ على التوافق. لا تحتاج التعليمات توكنًا أو خدمة مدفوعة أو حزمة برمجية لتعمل.
+
+[تحديث الصيانة: إصلاح المراجع وتركيز النوافذ والأدلة الحالية](docs/fixes/README.md). هذا إصلاح للمثال الموجود، وليس اختبار تصميم جديدًا.
 
 | ابدأ التنفيذ | شاهد النتيجة | افهم المنهج | استكشف المصادر |
 |:---|:---|:---|:---|

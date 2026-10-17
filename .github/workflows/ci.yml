@@ -47,6 +47,8 @@ jobs:
           done
       - name: Replay the single focused expressive study
         run: node scripts/capture-apollo.mjs test-results/apollo
+      - name: Verify the existing architectural example repair
+        run: node scripts/verify-atelier.mjs test-results/atelier
       - name: Build portable release archive
         run: npm run package
       - name: Check ZIP integrity with an independent reader

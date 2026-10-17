@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/qwzx4893-stack/thunder-Skil/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/qwzx4893-stack/thunder-Skil/ci.yml?style=flat-square&amp;label=checks&amp;color=71836a" alt="Skill validation and browser fixtures"></a>
-  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/badge/release-v0.6.0-f5b93d?style=flat-square" alt="Release 0.6.0"></a>
+  <a href="https://github.com/qwzx4893-stack/thunder-Skil/releases"><img src="https://img.shields.io/badge/release-v0.6.1-f5b93d?style=flat-square" alt="Release 0.6.1"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-eeeae0?style=flat-square" alt="MIT license"></a>
   <a href="README.ar.md"><img src="https://img.shields.io/badge/docs-EN%20%2F%20AR-eeeae0?style=flat-square" alt="Documentation in English and Arabic"></a>
 </p>
@@ -18,7 +18,9 @@ Thunder Skil is a portable agent skill for building and improving web interfaces
 
 A handcrafted product page, an Arabic operations tool and an exact reference implementation need different decisions. The skill routes them accordingly. It can choose stillness, a conventional control or a compact information model when that serves the work.
 
-**Version:** 0.6.0 · **Runtime identifier:** `immersive-web-studio` · **No required API key, paid service or package runtime for the instructions.**
+**Version:** 0.6.1 · **Runtime identifier:** `immersive-web-studio` · **No required API key, paid service or package runtime for the instructions.**
+
+Maintenance update: [reviewed craft guidance, repaired modal focus and current evidence](docs/fixes/README.md). This repair does not constitute a new design benchmark.
 
 | Start building | Inspect the work | Understand the method | Explore the craft |
 |:---|:---|:---|:---|

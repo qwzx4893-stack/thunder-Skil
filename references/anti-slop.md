@@ -47,7 +47,11 @@ Review the design plan against the brief before implementation: which part is an
 
 ## Hard defects vs judgment
 
-Broken tasks, fabricated facts, inaccessible essential controls, unintended overflow, and missing promised behavior are correctness defects. Rounded corners, purple, Inter, centered heroes, native selects, hairlines, or zero motion are not correctness defects by themselves.
+Broken tasks, fabricated facts, inaccessible essential controls, unintended layout distortion, and missing promised behavior are correctness defects. Rounded corners, purple hues, Inter typography, centered heroes, native selects, hairlines, or zero motion are not correctness defects by themselves.
+
+### Responsive Layout Integrity & Clipping Defects
+- **The Grid Span Collapse Bug**: Switching a CSS Grid from multi-column to single-column at a breakpoint (`grid-template-columns: 1fr`) without resetting child column spans (`grid-column: span N`) creates implicit columns that expand beyond the viewport. This is a severe correctness defect. Always reset child spans (`grid-column: auto` or `1 / -1`).
+- **Destructive Clipping vs. Decorative Bleed**: `overflow-x: hidden` on `body` or a main container does not solve layout overflow; it hides the horizontal scrollbar while silently cutting off interactive buttons, headings, and readable text from view. A background image or ambient texture may bleed beyond the viewport edges, but readable content and interactive controls must never be clipped.
 
 The portable scripts perform bounded checks; they do not certify taste or originality. Do not add hidden markers, fake states, numbers, or distinctive labels merely to satisfy a checker. A keyword match is not proof of a rendered state.
 
